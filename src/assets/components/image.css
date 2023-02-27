@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+:root {
+  --color-etiqueta: #ff4040;
+}
+
+.image {
+  padding: 10px;
+  width: calc(100% / 3);
+  box-sizing: border-box;
+}
+
+.container2 {
+  width: 70%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.photo {
+  width: 300px;
+  height: 250px;
+}
+
+.photo:hover {
+  opacity: 0.6;
+  transition: all 0.5s ease;
+  transform: translateY(-5%);
+}
+
+.text {
+  padding: 10px;
+  width: -webkit-fill-available;
+}
+
+.tag {
+  color: var(--color-etiqueta);
+}
+
+.icon1 {
+  width: 25px;
+}
+
+.icon2 {
+  width: 25px;
+  height: 18px;
+}
+
+.text-label {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 1303px) {
+  .image {
+    width: 50%;
+  }
+}
+
+@media (max-width: 875px) {
+  .image {
+    width: 100%;
+  }
+}
